@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital clock</title>
+</head>
+
+<body>
+    <main>
+
+        <h1>Digital Clock</h1>
+
+        <div class="clock">
+            <span id="hours-24">00</span><span id="hours-12">00</span>:<span id="minutes">00</span>:<span
+                id="seconds">00</span> <span id="session">session</span>
+        </div>
+
+        <div class="calendar">
+            <span id="week">Week</span>, <span id="month">month</span> <span id="day">day</span> <span
+                id="year">year</span>
+        </div>
+
+        <a id="twenty-four-hour" onclick="clockTwentyFour()" href="javascript:void(0)">Change to 24 hour clock</a>
+        <a id="twelve-hour" onclick="clockTwelve()" href="javascript:void(0)">Change to 12 hour clock</a>
+
+        <script src="script.js"></script>
+        <noscript>Your browser has no JavaScript.</noscript>
+    </main>
+</body>
+
+</html>

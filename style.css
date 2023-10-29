@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#twelve-hour,
+#hours-24 {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(145deg, #c8fc84, #0d552b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    font-size: 5em;
+}
+
+.calendar {
+    font-size: 2em;
+    margin-bottom: 0.4em;
+}
+
+a {
+    text-decoration: none;
+    background-color: black;
+    color: rgb(214, 205, 205);
+    padding: 0.3em;
+    border-radius: 2em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+a:hover {
+    color: #c8fc84;
+}
+
+@media (max-width: 450px) {
+    .clock {
+        font-size: 3em;
+    }
+
+    .calendar {
+        font-size: 1.3em;
+    }
+}
